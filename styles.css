@@ -1,0 +1,64 @@
+body {
+  margin: 0px;
+  padding: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fc997c;
+}
+.camara {
+  width: 200px;
+  height: 150px;
+  background-color: #daddfc;
+  border-radius: 15px;
+  box-shadow: 0 15px 15px -13px black;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lente {
+  width: 125px;
+  height: 125px;
+  background: #f5f5f5;
+  box-shadow: 0 8px 0 0 #396eb0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.dentro-lente {
+  width: 105px;
+  height: 105px;
+  background: #396eb0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.detalle-lente {
+  border-top: 31px solid #2e4c6d;
+  border-bottom: 31px solid #aee1e1;
+  border-left: 31px solid #d3e0dc;
+  border-right: 31px solid #2e4c6d;
+  border-radius: 50%;
+}
+.flash {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  top: 5px;
+  right: 5px;
+}
+.button {
+  width: 30px;
+  height: 5px;
+  position: absolute;
+  background: #2e4c6d;
+  left: 16px;
+  top: -5px;
+  border-radius: 65px;
+}
